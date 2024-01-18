@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+  <link rel="stylesheet" href="./netflix.css">
+  <title>netflix-clone</title>
+</head>
+
+<body>
+
+  <div style="position: relative;">
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg netflix-navbar netflix-padding-left netflix-padding-right ">
+      <div class="container-fluid">
+        <div class="netflix-row">
+          <div class="left d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+              <img src="./imge/logo.png" alt="">
+            </a>
+            <div class="netflix-nav">
+              <section>
+                <button>Home</button>
+                <button>TV Shows</button>
+                <button>Movies</button>
+                <button>News & Popular</button>
+                <button>My List</button>
+              </section>
+            </div>
+            <div class="netflix-dropdown-box dropdown">
+              <button class="netflix-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Browse
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Home</a></li>
+                <li><a class="dropdown-item" href="#">TV Shows</a></li>
+                <li><a class="dropdown-item" href="#">Movies</a></li>
+                <li><a class="dropdown-item" href="#">News & Popular</a></li>
+                <li><a class="dropdown-item" href="#">My List</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="right d-flex align-items-center">
+            <i class="bi bi-search"></i>
+            <i class="bi bi-bell-fill"></i>
+            <section class="netflix-profile">
+
+            </section>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /header -->
+
+
+    <!-- video -->
+    <div class="">
+      <section class="netflix-home-video">
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <video src="./imge/video.mp4" autoplay muted loop></video>
+        <div class="content">
+          <section class="left">
+            <img src="./imge/image2.webp" alt="">
+
+            <div class="d-flex mt-2">
+              <button class="btn btn-light m-2"> <i class="bi bi-play-fill" style="color: black; padding: 0%;"></i> Play
+                Now </button>
+              <button class="btn btn-secondary m-2"><i class="bi bi-info-circle" style=" padding: 0%;"></i> More
+                Info</button>
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+    </div>
+    <!-- video -->
+
+
+    <!-- ------------ Movies------------------------------- -->
+    <div class=" container-fluid section-1 ">
+      <div class=" col-12">
+        <h5 class="heding-section">Trending Now</h5>
+      </div>
+      <div class="col-12 slide1 slide">
+
+      </div>
+
+    </div>
+
+
+    <div class=" container-fluid section-1  ">
+      <div class=" col-12">
+        <h5 class="heding-section">Popular On Netfilx</h5>
+      </div>
+      <div class="col-12 slide3 slide">
+
+        
+      </div>
+
+    </div>
+
+    <div class=" container-fluid section-1  ">
+      <div class=" col-12">
+        <h5 class="heding-section">Popular TV Shows</h5>
+      </div>
+   <div  class="col-12 slide2 slide">
+ 
+    
+   </div>
+      
+
+    </div>
+  <!-- footer  -->
+  <div class="container footer">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-md-3">
+            <ul>
+              <li>Audio and Subtitle</li>
+              <li>Media Center</li>
+              <li>Privacy</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Audio description</li>
+              <li>Investor Relation</li>
+              <li>Terms and Conditions</li>
+              <li>Legal Notices</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Help Center</li>
+              <li>Jobs</li>
+              <li> Cookie Preferences</li>
+
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Terms of Use</li>
+              <li>Subscription</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 mx-auto">
+        <div class="row">
+
+          <div class="col">
+            <p class="copy-right">@netflix clone</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- </div> -->
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+    <!-- custom-js--------- -->
+   <script src="./netflix.js"></script>
+
+</body>
+
+</html>
